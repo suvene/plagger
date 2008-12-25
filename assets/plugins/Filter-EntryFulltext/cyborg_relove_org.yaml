@@ -1,0 +1,5 @@
+# http://cyborg.relove.org/feed
+author: suVene
+handle: http://cyborg\.relove\.org/.+/.+\.html$
+extract: ol\.footnotes\{font(?:.*)?\}(.*?)Trackbacks
+extract_capture: body

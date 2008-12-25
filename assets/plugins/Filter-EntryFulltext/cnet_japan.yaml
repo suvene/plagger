@@ -1,0 +1,8 @@
+author: suVene
+handle_force: http://(?:feeds\.japan\.cnet\.com/|feeds\.feedburner\.jp/cnet|japan\.cnet\.com/(?:news|column|special|sp|interview))
+extract: <div class="article_header .*?">.*?(\d{4}/\d\d/\d\d \d\d:\d\d)&nbsp;&nbsp;.*?<div class="leaf_body.*?">(.*)</div>.*?<!--TrackBack-->
+extract_capture: date body
+extract_date_format: %Y/%m/%d %H:%M
+extract_after_hook: |
+  $data->{body} = $data->{photo1} . $data->{body} . $data->{photo2};
+

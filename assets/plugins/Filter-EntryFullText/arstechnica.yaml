@@ -1,6 +1,0 @@
-# Ars Technica
-author: Manabu Ishii
-handle: http://feeds\.feedburner\.com/arstechnica/
-extract: <h2 class="NewsHeading">[^>]*?<strong>(.*?)</strong>[^>]*?</h2>(.*?)<p class="NewsOptions">
-extract_capture: title body
-

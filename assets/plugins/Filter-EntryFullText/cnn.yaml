@@ -1,5 +1,0 @@
-# CNN
-author: Manabu Ishii
-handle: http://.*?\.cnn\.com/
-extract: <!--startclickprintinclude-->.*?<.*?>(.*?)<[^>]*?.*?<!--endclickprintexclude-->(.*?)<!--endclickprintinclude-->
-extract_capture: title body

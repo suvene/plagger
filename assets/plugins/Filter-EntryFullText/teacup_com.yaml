@@ -1,5 +1,0 @@
-# upgrade http://01.teacup.com/demo/bbs/rss15.xml
-author: Masafumi Otsune
-handle: http://\d{2,4}\.teacup\.com/\w+/bbs/\d+
-extract_xpath:
-  body: //tt

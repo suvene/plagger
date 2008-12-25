@@ -1,0 +1,8 @@
+# http://noyes.blog18.fc2.com/?xml 
+author: suVene
+handle: http://noyes\.blog18\.fc2\.com/blog-entry-\d+\.html
+extract_xpath:
+  title: //div[@class="entry_title"]
+  date: //div[@class="entry_state"]/a/text()
+  body: //div[@class="entry_text"]
+

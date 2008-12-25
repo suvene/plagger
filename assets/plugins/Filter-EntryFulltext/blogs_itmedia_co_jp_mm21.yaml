@@ -1,0 +1,5 @@
+# http://blogs.itmedia.co.jp/mm21/index.rdf
+author: suVene
+handle: http://blogs\.itmedia\.co\.jp/mm21/\d{4}/\d{2}/.*html
+extract: トップ(.*)trackback\(\d+\)
+extract_capture: body

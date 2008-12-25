@@ -1,5 +1,0 @@
-#upgrade http://blog.pasonatech.co.jp/index.xml
-author: Masafumi Otsune
-handle: http://blog\.pasonatech\.co\.jp/
-extract: <!-- main -->(.*?)<!-- /main -->
-extract_capture: body

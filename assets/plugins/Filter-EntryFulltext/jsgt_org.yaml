@@ -1,0 +1,6 @@
+# http://jsgt.org/mt/01/index.rdf
+# http://jsgt.org/mt/01/
+author: suVene
+handle: http://jsgt\.org/mt/archives/
+extract_xpath:
+  body: //div[@class="blogbody"]

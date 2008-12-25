@@ -1,3 +1,0 @@
-handle_force: http://plaza\.rakuten\.co\.jp/[\w\-]+/diary/
-extract: <DIV class="lo">(.*?)<!-- --><br clear="all">
-extract_capture: body

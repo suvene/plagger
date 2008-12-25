@@ -1,0 +1,6 @@
+# http://www.tokix.net/index.rdf
+# http://www.tokix.net/
+author: suVene
+handle: http://(?:www\.)?tokix\.net/txt/.+\.html
+extract_xpath:
+  body: //div[@class="entrybody"]

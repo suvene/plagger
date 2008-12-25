@@ -1,0 +1,6 @@
+# http://blog.livedoor.jp/lalha/index.rdf
+# http://blog.livedoor.jp/lalha/
+author: suVene
+handle_force: http://blog.livedoor.jp/lalha/
+extract_xpath:
+  body: //div[@class="main"]

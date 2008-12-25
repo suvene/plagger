@@ -1,0 +1,6 @@
+# upgrade http://www3.asahi.com/rss/index.rdf or http://bulknews.net/rss/rdf.cgi?Asahi
+author: suVene
+handle_force: http://(www|rss)\.asahi\.com/
+extract_xpath:
+  body: //div[@class="BodyTxt"]
+

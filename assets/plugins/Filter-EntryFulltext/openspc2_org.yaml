@@ -1,0 +1,7 @@
+# http://www.openspc2.org/blog/
+# http://www.openspc2.org/blog/index.xml
+author: suVene
+handle: http://www\.openspc2\.org/blog/archives/\d+/\d+/.+\.html
+extract: <div class="content">.*?</h3>(.*<p class="posted">.*?</p>)
+extract_capture: body
+

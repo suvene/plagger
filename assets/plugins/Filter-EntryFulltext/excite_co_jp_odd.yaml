@@ -1,0 +1,7 @@
+# http://www.excite.co.jp/News/xml/rss_excite_news_odd_index_utf_8.dcg
+# http://www.excite.co.jp/News/odd/
+author: suVene
+handle: http://www\.excite\.co\.jp/News/odd/[a-zA-Z0-9]\d+\.html
+extract_xpath:
+  body: id("story_content")
+

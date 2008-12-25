@@ -1,0 +1,7 @@
+# Financial Times
+#
+author: suVene 
+handle: http://www\.future\-planning\.net/
+extract: <div class="itemBody">(.*?)</div>
+extract_capture: title body
+

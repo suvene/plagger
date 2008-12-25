@@ -1,0 +1,5 @@
+author: suVene
+handle: http://japan\.internet\.com/\w+/(\d+/)?\d+\.html
+extract: (<font size="\+1\".*?)<iframe 
+extract_capture: body
+

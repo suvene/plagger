@@ -1,5 +1,0 @@
-# Reuters
-author: Manabu Ishii
-handle: http://go\.reuters\.com/
-extract: <div class="artTitle">(.*?)</div>.*?<!-- article text begins -->(.*?)<!-- article text ends -->
-extract_capture: title body

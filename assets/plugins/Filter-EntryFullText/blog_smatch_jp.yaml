@@ -1,4 +1,0 @@
-author: Tokuhiro Matsuno
-handle: http://blog.smatch.jp/.+/archive/\d+
-extract_xpath:
-  body: //div[@class="entrybox"]

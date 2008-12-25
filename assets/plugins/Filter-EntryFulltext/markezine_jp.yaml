@@ -1,0 +1,6 @@
+# http://rss.rssad.jp/rss/markezine/new/20/index.xml
+# http://markezine.jp/
+author: suVene
+handle: (http://markezine\.jp/a/article/aid/\d+\.aspx|http://markezine\.jp/article/detail/\d+)
+extract_xpath:
+  body: //div[@id="article"]
