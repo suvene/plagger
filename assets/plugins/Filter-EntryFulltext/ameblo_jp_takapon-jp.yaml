@@ -1,0 +1,6 @@
+# http://ameblo.jp/takapon-jp/
+author: suVene
+handle: http:\/\/ameblo\.jp\/takapon-jp/.*\.html
+extract_xpath:
+  body: //div[@class="subContents"]
+
