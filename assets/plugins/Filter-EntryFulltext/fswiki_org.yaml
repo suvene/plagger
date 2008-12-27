@@ -1,0 +1,7 @@
+# http://fswiki.org/wiki.pl
+#   http://fswiki.org/wiki.pl?action=RSS
+author: suVene
+handle: http://fswiki\.org\/wiki\.pl\?page=.*
+extract_xpath:
+  body: //div[@class="main"]
+
