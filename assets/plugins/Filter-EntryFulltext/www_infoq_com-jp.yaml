@@ -1,0 +1,7 @@
+# http://www.infoq.com/
+#   http://www.infoq.com/jp/rss/rss.action?token=aiaFA12wJvuVzTGVe3HZ7zCFCsiC4qKE
+author: suVene
+handle: http://www\.infoq\.com/jp/news/\d+/\d+/.+
+extract_xpath:
+  body: //div[@class="box-content-5"]
+
