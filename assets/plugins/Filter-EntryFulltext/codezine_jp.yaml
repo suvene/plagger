@@ -3,4 +3,4 @@
 author: suVene
 handle: http://codezine\.jp/(?:a/)?article/(?:aid|detail)/\d+(?:\.aspx)?
 extract_xpath:
-  body: //div[@class="bodyformattedpage" or @id="NWrelart:Body"]
+  body: //div[@class="bodyformattedpage" or @id="article"]
