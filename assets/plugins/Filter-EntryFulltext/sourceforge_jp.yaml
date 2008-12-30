@@ -1,0 +1,7 @@
+# http://sourceforge.jp
+#   http://www.pheedo.jp/f/sourceforgejp/magazine
+author: suVene
+handle: http://sourceforge\.jp/magazine/\d+/\d+/\d+/\d+
+extract_xpath:
+  body: //div[@class="body"]
+
