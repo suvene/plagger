@@ -1,0 +1,10 @@
+# http://labaq.com
+#   http://labaq.com/index.rdf
+author: suVene
+handle: http://labaq\.com/archives/\d+\.html
+extract_xpath:
+  body1: //div[@class="main"]
+  body2: //div[@class="mainmore"]
+extract_after_hook: |
+  $data->{body} = $data->{body1} . $data->{body2};
+
