@@ -1,0 +1,7 @@
+# http://journal.mycom.co.jp
+#   http://journal.mycom.co.jp/haishin/rss/index.rdf
+author: Nobuhito Sato
+handle: http://journal\.mycom\.co\.jp/
+extract_xpath:
+  body: //div[@class="articleContent"]
+
