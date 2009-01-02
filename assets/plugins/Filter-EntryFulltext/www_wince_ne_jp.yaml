@@ -1,0 +1,8 @@
+# http://www.wince.ne.jp
+# http://windows-keitai.com
+#   http://www.wince.ne.jp/cefanRSS.xml
+author: suVene
+handle: http://windows-keitai\.com/.*
+extract_xpath:
+  body: //div[@id="body"]
+
