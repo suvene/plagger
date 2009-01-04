@@ -7,5 +7,5 @@ handle: http://blog\.livedoor\.jp/(?:hikky313|kazu_fujisawa)/archives/\d+\.html
 extract_xpath:
   title: //h3[@class="title"]/text()
   date: //h2[@class="date"]/text()
-  body: //div[@class="blogbody"]
+  body: //div[@class="main"]
 
