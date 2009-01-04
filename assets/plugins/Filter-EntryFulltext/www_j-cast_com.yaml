@@ -1,0 +1,7 @@
+# http://www.j-cast.com
+#   http://www.pheedo.jp/f/jcast_news_2
+author: suVene
+handle: http://www\.j-cast\.com/\d+/\d+/\d+\.html
+extract_xpath:
+  body: id("entry-main")
+
