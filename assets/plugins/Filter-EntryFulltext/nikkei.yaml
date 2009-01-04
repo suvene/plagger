@@ -1,0 +1,10 @@
+# http://www.nikkeo.co.jp/news
+#   http://bulknews.net/rss/rdf.cgi?NikkeiNet
+author: woremacx(mod suVene)
+handle: http://www\.nikkei\.co\.jp/news/
+extract: <!--FJZONE START NAME="MIDASHI" -->(.+?)<!--FJZONE END NAME="MIDASHI" -->\s</h3>\s<div class="article-cap">\s<p>(.+?)\((\d{2}:\d{2})\)
+extract_capture: title body time
+extract_after_hook: |
+  if ($args->{entry}->link =~ m!/news/\w+?/(\d{4})(\d\d)(\d\d)!) {
+   $data->{date} = "$1/$2/$3 $data->{time} JST";
+  }
