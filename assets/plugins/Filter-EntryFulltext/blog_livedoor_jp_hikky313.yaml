@@ -1,8 +1,0 @@
-# http://blog.livedoor.jp/hikky313/atom.xml
-author: suVene
-handle: http://blog\.livedoor\.jp/hikky313/archives/\d+\.html
-extract_xpath:
-  title: //h3[@class="title"]
-  date: //h2[@class="date"]
-  body: //div[@class="blogbody"]
-
