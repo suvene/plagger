@@ -1,0 +1,7 @@
+# http://www.lifehacker.jp
+#   http://feeds.lifehacker.jp/rss/lifehacker/index.xml
+author: suVene
+handle: http://www\.lifehacker\.jp/\d+/\d+/.+\.html
+extract_xpath:
+  body: //div[@class="entry_body"]
+
