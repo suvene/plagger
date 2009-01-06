@@ -1,0 +1,7 @@
+# http://tdf001.blog78.fc2.com/
+#   http://tdf001.blog78.fc2.com/?xml
+author: suVene
+handle: http://.+\.blog.+\.fc2\.com/.+\.html
+extract_xpath:
+  body: //div[@class="entry-body"]
+

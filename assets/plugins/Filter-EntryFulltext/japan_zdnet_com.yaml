@@ -1,0 +1,7 @@
+# http://japan.zdnet.com/
+#   http://feeds.japan.zdnet.com/zdnet/rss
+author: suVene
+handle: http://japan\.zdnet\.com/.*\.htm
+extract_xpath:
+  body: id("block_story")
+

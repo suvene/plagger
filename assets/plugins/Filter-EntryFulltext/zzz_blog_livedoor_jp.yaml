@@ -1,0 +1,14 @@
+# http://blog.livedoor.jp/hikky313/
+#   http://blog.livedoor.jp/hikky313/atom.xml
+# http://blog.livedoor.jp/kazu_fujisawa/
+#   http://blog.livedoor.jp/kazu_fujisawa/index.rdf
+author: suVene
+handle_force: http://blog\.livedoor\.jp/.*/archives/\d+\.html
+extract_xpath:
+  title: //h3[contains(concat(" ", normalize-space(@class), " "), " title ")]/text()
+  date: //*[contains(concat(" ", normalize-space(@class), " "), " date ")]
+  body1: //div[contains(concat(" ", normalize-space(@class), " "), " main ")]
+  body2: //div[contains(concat(" ", normalize-space(@class), " "), " mainmore ")]
+extract_after_hook: |
+  $data->{body} = $data->{body1} . $data->{body2};
+
