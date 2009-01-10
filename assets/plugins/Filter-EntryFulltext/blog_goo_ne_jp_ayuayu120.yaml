@@ -1,0 +1,7 @@
+# http://blog.goo.ne.jp/ayuayu120/
+#   http://blog.goo.ne.jp/ayuayu120/index.rdf
+author: suVene
+handle: http://blog\.goo\.ne\.jp/ayuayu120/
+extract_xpath:
+  body: //div[@class="Posi"]
+

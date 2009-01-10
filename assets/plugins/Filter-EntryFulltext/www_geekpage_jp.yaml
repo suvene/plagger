@@ -1,0 +1,7 @@
+# http://www.geekpage.jp/
+#   http://www.geekpage.jp/rss.php
+author: suVene
+handle: http://www\.geekpage\.jp/blog/
+extract_xpath:
+  body: //div[@class="main"]
+

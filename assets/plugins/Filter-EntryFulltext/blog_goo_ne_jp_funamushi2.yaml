@@ -1,6 +1,7 @@
-# http://blog.goo.ne.jp/funamushi2/index.rdf
 # http://blog.goo.ne.jp/funamushi2/
+#   http://blog.goo.ne.jp/funamushi2/index.rdf
 author: suVene
 handle: http://blog\.goo\.ne\.jp/funamushi2/
 extract_xpath:
   body: //div[@class="entry-body"]
+
