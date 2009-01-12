@@ -1,0 +1,7 @@
+# http://biscuitclub.fc.yahoo.co.jp/
+#   http://biscuitclub.fc.yahoo.co.jp/rss.php
+author: suVene
+handle_force: http://biscuitclub\.fc\.yahoo\.co\.jp/ 
+extract_xpath:
+  body: //div[@class="article-body"]
+
