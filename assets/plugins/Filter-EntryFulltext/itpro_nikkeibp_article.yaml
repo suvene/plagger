@@ -1,0 +1,7 @@
+# http://itpro.nikkeibp.co.jp/
+#   http://itpro.nikkeibp.co.jp/rss/ITpro.rdf
+author: suVene
+handle: http://itpro\.nikkeibp\.co\.jp/article/
+extract_xpath:
+  body: //div[@id="kiji"]
+

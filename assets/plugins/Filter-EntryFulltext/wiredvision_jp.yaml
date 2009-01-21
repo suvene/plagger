@@ -1,0 +1,7 @@
+# http://wiredvision.jp/
+#   http://rss.rssad.jp/rss/wiredvision/news/atom.xml
+author: suVene
+handle: http://wiredvision\.jp/
+extract_xpath:
+  body: id("entryContent")
+
