@@ -1,0 +1,7 @@
+# http://slashdot.jp/
+#   http://www.pheedo.jp/f/slashdot_japan
+author: suVene
+handle: http://slashdot\.jp/
+extract_xpath:
+  body: //div[@class="intro"]
+
