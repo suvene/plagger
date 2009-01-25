@@ -1,0 +1,7 @@
+# http://qune.cside.com/
+#   http://qune.cside.com/index.rdf
+author: suVene
+handle: http://qune\.cside\.com/archives/.*\.html
+extract_xpath:
+  body: id("abstract")
+
