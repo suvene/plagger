@@ -1,7 +1,7 @@
 # http://labaq.com
 #   http://labaq.com/index.rdf
 author: suVene
-handle: http://labaq\.com/archives/\d+\.html
+handle_force: http://labaq\.com/archives/\d+\.html
 extract_xpath:
   body1: //div[@class="main"]
   body2: //div[@class="mainmore"]

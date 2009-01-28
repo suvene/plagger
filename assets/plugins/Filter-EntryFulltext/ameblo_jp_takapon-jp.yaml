@@ -1,7 +1,7 @@
 # http://ameblo.jp/takapon-jp/
 #  http://feedblog.ameba.jp/rss/ameblo/takapon-jp/rss20.xml 
 author: suVene
-handle: http://ameblo\.jp/takapon-jp/.*\.html
+handle_force: http://ameblo\.jp/takapon-jp/.*\.html
 extract_xpath:
   body: //div[@class="subContents"]
 
