@@ -1,0 +1,7 @@
+# http://ameblo.jp/.*/
+#  http://feedblog.ameba.jp/rss/ameblo/.*/rss20.xml
+author: suVene
+handle_force: http://ameblo\.jp/.*\.html
+extract_xpath:
+  body: //div[@class="subContents"]
+
