@@ -1,7 +1,7 @@
 # http://journal.mycom.co.jp
 #   http://journal.mycom.co.jp/haishin/rss/index.rdf
 author: suVene
-handle: http://journal\.mycom\.co\.jp/
+handle_force: http://journal\.mycom\.co\.jp/
 extract_xpath:
-  body: //div[@class="articleContent"]
+  body: //div[@class="articleContent"]|id("articleMain")
 
