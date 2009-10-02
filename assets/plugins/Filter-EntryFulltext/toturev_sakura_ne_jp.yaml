@@ -1,0 +1,7 @@
+# http://toturev.sakura.ne.jp/totutohoku/
+#   http://toturev.sakura.ne.jp/totutohoku/index.php?cmd=rss
+author: suVene
+handle: http://toturev\.sakura\.ne\.jp/totutohoku/index.php\?
+extract_xpath:
+  body: //div[@class="body"]
+
