@@ -3,5 +3,5 @@
 author: suVene
 handle: http://blog\.goo\.ne\.jp/ayuayu120/
 extract_xpath:
-  body: //div[@class="Posi"]
+  body: //div[@class="entry-body"]
 
