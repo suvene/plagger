@@ -3,7 +3,7 @@
 # http://dormb.blog55.fc2.com/
 #   http://dormb.blog55.fc2.com/?xml
 author: suVene
-handle: http://.+\.blog.+\.fc2\.com/.+\.html
+handle_force: http://.+\.blog.+\.fc2\.com/.+\.html
 extract_xpath:
-  body: //div[@class="entry-body" or @class="entry"]
+  body: //div[@class="entry-body" or @class="entry_body" or @class="entry" or @class="ent"]
 
