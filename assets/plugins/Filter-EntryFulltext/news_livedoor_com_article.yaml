@@ -1,0 +1,8 @@
+# e.g.)
+# http://blogos.livedoor.com/
+#  http://blogos.livedoor.com/rss/blogos/summary.xml
+author: suVene
+handle_force: http://news\.livedoor\.com/article/detail/\d+/
+extract_xpath:
+  body: //div[@class="article"]
+
