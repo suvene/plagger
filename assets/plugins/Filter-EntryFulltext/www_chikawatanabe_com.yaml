@@ -1,0 +1,7 @@
+# http://www.chikawatanabe.com/blog/2009/09/dreams.html
+#   http://feeds.feedburner.jp/OnOffAndBeyond
+author: suVene
+handle_force: http://www\.chikawatanabe\.com/blog/\d{4}/\d{2}/.+\.html
+extract_xpath:
+  body: id("content")/div[@class="blog"]
+
