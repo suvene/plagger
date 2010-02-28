@@ -1,0 +1,7 @@
+# http://www.shinojapan.biz
+#   http://www.shinojapan.biz/feed
+author: suVene
+handle: http://www\.shinojapan\.biz
+extract_xpath:
+  body: id("left")
+
