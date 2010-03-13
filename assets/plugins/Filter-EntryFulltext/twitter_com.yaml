@@ -1,0 +1,7 @@
+# http://twitter.com
+#   http://twitter.com
+author: suVene
+handle: http://twitter\.com
+extract_xpath:
+  body: id("content")
+

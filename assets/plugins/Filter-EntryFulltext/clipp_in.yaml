@@ -1,0 +1,7 @@
+# http://clipp.in
+#   http://suvene.clipp.in
+author: suVene
+handle: http://.*\.clipp\.in/entry/
+extract_xpath:
+  body: //div[@class="itemBody"]
+

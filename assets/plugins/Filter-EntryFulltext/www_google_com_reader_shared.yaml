@@ -1,0 +1,6 @@
+# http://www.google.com/reader/shared/
+author: suVene
+handle: http://www\.google\.com/reader/shared/
+extract_xpath:
+  body: //div[@class="item"]
+
