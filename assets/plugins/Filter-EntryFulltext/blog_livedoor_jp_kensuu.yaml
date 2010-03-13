@@ -1,7 +1,0 @@
-# http://blog.livedoor.jp/kensuu/
-#   http://blog.livedoor.jp/kensuu/index.rdf
-author: suVene
-handle_force: http://blog\.livedoor\.jp/kensuu/
-extract_xpath:
-  body: //div[@class="main" or @class="mainmore"]
-
