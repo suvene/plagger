@@ -1,0 +1,7 @@
+# http://ikedanobuo.livedoor.biz/
+#   http://ikedanobuo.livedoor.biz/index.rdf
+author: suVene
+handle_force: http://(ikedanobuo|mudachishiki).livedoor\.biz/archives/.+\.html
+extract_xpath:
+  body: //div[@class="entry-body-main" or @id="contentin"]
+
